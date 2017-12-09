@@ -1,0 +1,30 @@
+body * {
+	font-family: 'Roboto Slab', serif;
+	margin:0;
+}
+
+body {
+
+}
+/* Nav bar height,  */
+nav {
+	position:relative;
+	top:0;
+	height: 50px;
+	background-color:white;
+	text-align:left;
+	margin:0;
+}
+.logo{
+	border-radius:50%;
+	position:absolute
+	padding-right:15px
+	border:1px black dotted;
+	max-height:100%;
+	width:auto;
+}
+ ul#navlist li{
+	display:inline-block;
+	float:left;
+	padding-right:10px;
+}
