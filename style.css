@@ -28,13 +28,18 @@ nav {
 	width:auto;
 	float:left;
 }
+
+ul {
+	position:relative;
+	text-align:right;
+
+}
  ul#navlist li{
 	display:inline-block;
 	padding-right:10px;
 	padding-left:10px;
 	height:10px;
 	width:auto;
-	text-align:center;
 
 }
 p {
@@ -49,16 +54,18 @@ p {
 
 }
 a:hover {
-	color:grey;
+	color:ivory;
 
 }
 a{
 	text-decoration: none;
-	padding-left:10px;
+	/*padding-left:10px;*/
 	display:inline-block;
 	color:black;
 }
 .navtitle {
+	position:relative;
+	top:20px;
 	display:inline-block;
 	text-align:left;
 	font-weight: bold;
