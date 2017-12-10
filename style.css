@@ -12,6 +12,8 @@ margin:0;
 }
 main {
 	color:white;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 /* Nav bar height,  */
 nav {
@@ -52,20 +54,22 @@ nav ul {
 	width:auto;
 
 
+
 }
 main p {
 	width:100%;
 	top:20px;
-	max-width: 900px;
+	text-align:center;
+	
 	
 }
-p#centered {
+/*p#centered {
 	text-align: center;
 	font-weight: bold;
-	left:50%;
-	right:50%;
+	margin-left:50%;
+	margin-right:50%;
 
-}
+}*/
 .myface {
 	float:left;
 	width:20%;
@@ -115,4 +119,13 @@ div#ongoing {
 }
 div#ongoing ul {
 	margin-top:15px;
+}
+h1 {
+	font-size:60px;
+}
+h2 {
+	font-size:50px;
+}
+h3{
+	font-size:40px;
 }
