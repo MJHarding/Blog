@@ -4,7 +4,11 @@ body * {
 }
 
 body {
-
+background:linear-gradient(to bottom, transparent 5%, white 100%), url(blogbackground.jpg) no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+margin:0;
 }
 /* Nav bar height,  */
 nav {
@@ -21,17 +25,20 @@ nav {
 }
 .logo{
 	border-radius:50%;
-	position:absolute	
+	position:relative	
 	padding-right:15px;
 	border:2px black solid;
 	max-height:100%;
 	width:auto;
 	float:left;
+	top:10px;
+
 }
 
-ul {
+nav ul {
 	position:relative;
 	text-align:right;
+	top:0px;
 
 }
  ul#navlist li{
@@ -41,13 +48,24 @@ ul {
 	height:10px;
 	width:auto;
 
+
 }
-p {
-	width:500px;
+main p {
+	width:100%;
+	top:20px;
+	max-width: 900px;
+	text-shadow:1px 1px white;
+}
+p#centered {
+	text-align: center;
+	font-weight: bold;
+	left:50%;
+	right:50%;
+
 }
 .myface {
 	float:left;
-	width:150px;
+	width:20%;
 	border-radius:20%;
 	margin-right:20px;
 	margin-left:25px;
@@ -55,6 +73,7 @@ p {
 }
 a:hover {
 	color:ivory;
+	text-shadow:2px 2px black;
 
 }
 a{
@@ -71,4 +90,25 @@ a{
 	font-weight: bold;
 	width:auto;
 	padding-left: 10px;
+}
+h1{
+	text-align:center;
+	top:25px;
+
+}
+div#tech {
+	overflow:hidden;
+	position:relative;
+	top:25px;
+	}
+
+div#tech ul {
+	margin-top:10px;
+}
+div#ongoing {
+	margin-top:15px;
+	
+}
+div#ongoing ul {
+	margin-top:15px;
 }
