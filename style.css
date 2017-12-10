@@ -93,6 +93,7 @@ a{
 	font-weight: bold;
 	width:auto;
 	padding-left: 10px;
+	max-width:30%;
 }
 h1{
 	text-align:center;
