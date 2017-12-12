@@ -86,11 +86,14 @@ a:hover {
 	text-shadow:2px 2px black;
 
 }
+nav a {
+	color:black;
+}
 a{
 	text-decoration: none;
 	/*padding-left:10px;*/
 	display:inline-block;
-	color:black;
+	color:white;
 }
 .navtitle {
 	position:relative;
